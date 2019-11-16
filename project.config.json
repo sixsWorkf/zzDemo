@@ -4,10 +4,21 @@
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
+		"enhance": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"enhance": true
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"nodeModules": true
 	},
 	"appid": "wx35397e405485366a",
 	"projectname": "miniprogram3",
@@ -36,7 +47,28 @@
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "addtodo",
+					"pathName": "pages/addtodo/addtodo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "todoinfo",
+					"pathName": "pages/todoinfo/todoinfo",
+					"scene": null
+				}
+			]
 		}
 	}
 }

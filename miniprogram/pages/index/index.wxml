@@ -1,2 +1,21 @@
 <!--miniprogram/pages/index.wxml-->
-<text>miniprogram/pages/index.wxml</text>
+<view class='plusBtn'>
+  <navigator url='../addtodo/addtodo'>
+    <van-icon name="plus" class="plusIcon"/>  
+  </navigator>
+</view>
+
+<van-cell-group>
+  <block wx:for="{{tasks}}" >
+    <navigator url="../todoinfo/todoinfo?id={{item._id}}">
+      <view catchlongtap=deleteTodo" data-id="{{item._id}}">
+        <van-cell title="{{item.title}}" ></van-cell>
+      </view>
+    </navigator>    
+  </block>
+</van-cell-group>
+
+<!-- <van-cell-group>
+  <van-cell title="单元格" value="内容" />
+  <van-cell title="单元格" value="内容" label="描述信息" border="{{ false }}" />
+</van-cell-group> -->

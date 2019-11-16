@@ -1,0 +1,14 @@
+<form bindsubmit="onSubmit" report-submit="{{true}}">
+  <input name='title'></input>
+  <button bindtap="selectImage">选择图片</button>
+  <button bindtap="selectLocation">选择位置</button>
+  
+  <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+    <view class="picker">
+      当前选择: {{time}}
+    </view>
+  </picker>
+
+  <button form-type="submit">commit</button>
+  
+</form>

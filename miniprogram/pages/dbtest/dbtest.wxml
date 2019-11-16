@@ -1,0 +1,14 @@
+ <van-cell-group>
+   <van-cell 
+    title="noSpicy"
+    border="false"
+    value="{{noSpicy}}">
+  </van-cell>
+  <van-cell 
+    title="noOnion"
+    border="{{false}}"
+    value="{{noOnion}}">
+  </van-cell>
+  <button bindtap="noSpicy">不要辣</button>
+  <button bindtap="noOnion">不要葱</button>
+ </van-cell-group>

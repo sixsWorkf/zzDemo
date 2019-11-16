@@ -1,13 +1,29 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/index"
+    "pages/dbtest/dbtest",
+    "pages/test/test",  
+    "pages/todoinfo/todoinfo",
+    "pages/addtodo/addtodo",
+    "pages/index/index"
+    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "云待办",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "van-cell": "vant-weapp/cell",
+    "van-cell-group": "vant-weapp/cell-group",
+    "van-icon": "vant-weapp/icon"
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的位置将用于任务设定"
+    }
+  },
+  "sitemapLocation": "sitemap80.json"
 }
