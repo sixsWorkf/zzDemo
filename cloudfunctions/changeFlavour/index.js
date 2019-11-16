@@ -8,7 +8,7 @@ const dishes = db.collection('dishOrder');
 const _ = db.command;
 
 exports.main = async (event, context) => {
-  // console.log(event);
+  console.log("event",event);
   if(event.type=='spicy'){
     await flavour.doc(event._id).update({
       data: {

@@ -1,7 +1,7 @@
 {
   "pages": [
+    "pages/test/test",
     "pages/dbtest/dbtest",
-    "pages/test/test",  
     "pages/todoinfo/todoinfo",
     "pages/addtodo/addtodo",
     "pages/index/index"

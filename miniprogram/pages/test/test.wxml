@@ -40,3 +40,8 @@
     <button formType="reset">Reset</button>
   </view>
 </form>
+<view>
+  <navigator url="/pages/dbtest/dbtest?roomid=18&_id=7c47f3615dcf5ba200aea96d24cd9007">
+  jump
+  </navigator>
+</view>
